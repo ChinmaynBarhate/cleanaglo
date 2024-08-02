@@ -16,6 +16,7 @@ public class LoginDemo {
         Thread.sleep(3000);
         String a = driver.findElement(By.xpath("//div[@class='MuiAlert-message mui-1xsto0d']")).getText();
         System.out.println(a);
+        driver.close();
 
     }
 
